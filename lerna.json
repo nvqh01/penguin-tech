@@ -1,5 +1,5 @@
 {
-  "npmClient": "yarn",
+  "npmClient": "yarn3",
   "packages": ["packages/*"],
   "version": "independent",
   "useNx": true,
