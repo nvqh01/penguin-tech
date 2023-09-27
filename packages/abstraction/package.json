@@ -1,0 +1,40 @@
+{
+  "name": "@penguin-tech/abstraction",
+  "version": "1.0.0",
+  "description": "Penguin Techology Abstraction",
+  "author": "huynvq",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "nest build"
+  },
+  "dependencies": {
+    "@penguin-tech/core": "1.0.0",
+    "@penguin-tech/crawler": "1.0.0",
+    "@penguin-tech/mongo": "1.0.0",
+    "@penguin-tech/proxy-manager": "1.0.0",
+    "@penguin-tech/rabbit": "1.0.0",
+    "@penguin-tech/redis": "1.0.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".*\\.spec\\.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "collectCoverageFrom": [
+      "**/*.(t|j)s"
+    ],
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "@penguin-tech/crawler",
+  "version": "1.0.0",
+  "description": "Penguin Techology Crawler",
+  "author": "huynvq",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "nest build"
+  },
+  "dependencies": {
+    "@penguin-tech/core": "1.0.0",
+    "@penguin-tech/proxy-manager": "1.0.0",
+    "crawlee": "3.5.4",
+    "playwright": "1.37.1",
+    "playwright-extra": "4.3.6",
+    "puppeteer": "21.2.1",
+    "puppeteer-extra": "3.3.6",
+    "puppeteer-extra-plugin-stealth": "2.11.2"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".*\\.spec\\.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "collectCoverageFrom": [
+      "**/*.(t|j)s"
+    ],
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
+  }
+}
