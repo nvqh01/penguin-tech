@@ -37,6 +37,7 @@ lerna-debug.log*
 .docker/
 .yarn/
 cache/
+test/
 
 .env
 .npmrc
