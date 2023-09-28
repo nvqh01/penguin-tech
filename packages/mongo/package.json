@@ -1,6 +1,6 @@
 {
   "name": "@penguin-tech/mongo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Penguin Techology Mongo",
   "author": "huynvq",
   "license": "ISC",
@@ -16,7 +16,7 @@
     "build": "nest build"
   },
   "dependencies": {
-    "@penguin-tech/core": "1.0.0",
+    "@penguin-tech/core": "^1.0.1",
     "@typegoose/typegoose": "11.5.0",
     "mongoose": "7.5.2"
   },

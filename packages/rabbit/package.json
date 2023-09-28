@@ -1,6 +1,6 @@
 {
   "name": "@penguin-tech/rabbit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Penguin Techology Rabbit",
   "author": "huynvq",
   "license": "ISC",
@@ -16,7 +16,7 @@
     "build": "nest build"
   },
   "dependencies": {
-    "@penguin-tech/core": "1.0.0",
+    "@penguin-tech/core": "^1.0.1",
     "amqp-connection-manager": "4.1.14",
     "amqplib": "0.10.3"
   },

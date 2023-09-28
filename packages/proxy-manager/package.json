@@ -1,6 +1,6 @@
 {
   "name": "@penguin-tech/proxy-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Penguin Techology Proxy Manager",
   "author": "huynvq",
   "license": "ISC",
@@ -16,7 +16,7 @@
     "build": "nest build"
   },
   "dependencies": {
-    "@penguin-tech/core": "1.0.0"
+    "@penguin-tech/core": "^1.0.1"
   },
   "jest": {
     "moduleFileExtensions": [

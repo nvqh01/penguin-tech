@@ -1,6 +1,6 @@
 {
   "name": "@penguin-tech/crawler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Penguin Techology Crawler",
   "author": "huynvq",
   "license": "ISC",
@@ -16,8 +16,8 @@
     "build": "nest build"
   },
   "dependencies": {
-    "@penguin-tech/core": "1.0.0",
-    "@penguin-tech/proxy-manager": "1.0.0",
+    "@penguin-tech/core": "^1.0.1",
+    "@penguin-tech/proxy-manager": "^1.0.1",
     "crawlee": "3.5.4",
     "playwright": "1.37.1",
     "playwright-extra": "4.3.6",
